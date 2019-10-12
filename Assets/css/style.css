@@ -3,13 +3,14 @@
 }
 
 body {
-    background-color: #cccccc;
+    background-color: beige;
 }
 
 .mainheader {
     background: #ffffff;
     border-color: #cccccc;
-    border: 1px solid;
+    border-style: 1px hidden;
+    width: 100%;
 }
 
 #Name {
@@ -34,8 +35,11 @@ body {
 .main {
     width: 960px;
     border-color: #dddddd;
+    border-style: hidden;
     background-color: #ffffff;
-    border: 1px solid;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 #About, #Portfolio, #Contact {
@@ -45,14 +49,16 @@ body {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-#profile {
-    height: 200px;
-    width: 200px;
+.profile {
+    height: 300px;
+    width: 300px;
+
 }
 
 p {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
 }
 
 footer {
@@ -60,4 +66,9 @@ footer {
     margin-bottom: 20px;
     text-align: center;
     background-color: #666666
+}
+
+#placeholder1, #placeholder2, #placeholder3, #placeholder4, #placeholder5 {
+    height: 300px;
+    width: 300px;
 }
