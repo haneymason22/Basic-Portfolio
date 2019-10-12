@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.mainheader {
+    background: #ffffff
+}
+
+#Name {
+    background: #4aaaa5;
+    color: white;
+    float: left;
+}
+
+.basicnav {
+    float: right;
+}
+
+.anchor {
+    color: #777777;
+}
+
+.main {
+    width: 960px;
+}
+
+#profile {
+    height: 200px;
+    width: 200px;
+}
